@@ -1,9 +1,9 @@
 ---
 layout: post
-title: You're up and running!
+title: 542 Probability and Statistics
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+Probability means that given some rules, we need to get the chance of whether the event will happen. It is about looking forward. However, Statistics is kind of looking back. It means that given the actual event, we need to guess what makes the it happend.
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
