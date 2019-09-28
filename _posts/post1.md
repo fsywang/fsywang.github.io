@@ -5,13 +5,8 @@ title: What is Overfitting and How to Avoid It?
 
 Overfitting is one of the most common modeling problems in machine learning. It happens when the model fits on the training dataset too well but causes a bad performance when predicting an unseen dataset. To understand overfitting in real life, I will use an analogy to explain it. 
 ## Analogy of Overfitting
-A data scientist, Tony, uses coding languages such as SQL, Python, C++ and Java in his current and previous data scientist job. One day, he decides to change a company, and he starts to look for data scientist jobs. He soon finds that his dream company is hiring data scientists; however, the job description shows that this data scientist job will use SQL, R and Python as coding languages. He believes that this is not a real data scientist job since it does not require C++ and Java, so he decides not to apply. This is a case of overfitting. Assume that each coding language is a feature with binary values "Yes" or "No" as the table below. Tony tries to classify a job between two classes:  "data scientist" and "not data scientist". Based on his experience, he comes up with a model in which a data scientist should at least uses coding language SQL, Python, C++ and Java. The new data scientist job does not require C++ and Java, so he classifies the new job to "not data scientist"; yet, this is a real data scientist job.
+A data scientist, Tony, uses coding languages such as SQL, Python, C++ and Java in his current and previous data scientist job. One day, he decides to change a company, and he starts to look for data scientist jobs. He soon finds that his dream company is hiring data scientists; however, the job description shows that this data scientist job will use SQL, R and Python as coding languages. He believes that this is not a real data scientist job since it does not require C++ and Java, so he decides not to apply. This is a case of overfitting. Assume that each coding language is a feature with binary values "Yes" or "No". Tony tries to classify a job between two classes:  "data scientist" and "not data scientist". Based on his experience, he comes up with a model in which a data scientist should at least uses coding language SQL, Python, C++ and Java. The new data scientist job does not require C++ and Java, so he classifies the new job to "not data scientist"; yet, this is a real data scientist job.
 
-| Language        | SQL   | Python | Java  | C++ | R    |
-|-----------------|-------|--------|-------|-----|------|
-|   Previous Job  | Yes   | Yes    | Yes   | Yes | Yes  |
-|   Current Job   | Yes   | Yes    | Yes   | Yes | No   |
-|   New Job       | Yes   | Yes    | No    | No  | Yes  |
 ## Why Should We Care About Overfitting?
 In the analogy, Tony gave up his dream company because of his overfitting model. It is crucial to avoid overfitting when we try to do prediction or classification because it will ruin our models. For example, assume we want to classify whether a car has good mileage. We train a machine learning model in a dataset including 5,000 cars with 10 features, and we use this same dataset to test our model to see how it performs. Surprisingly, we get around 99% accuracy. This means that we classify almost everything right. However, does this mean that our model is super powerful? Then, we use the same model to test on a new dataset which we have never seen before, and we get around 50% accuracy. How does this happen? Our model remembers each feature of our car dataset, so the model will just use its memory to make the prediction. It works well for those data in its memory but performs badly when dealing with unseen data.
 ## How to Avoid Overfitting?
@@ -29,7 +24,3 @@ Regulation is a popular technique to deal with overfitting problems. In many sit
 
 Overfitting is a serious problem when we are doing model training in data science, so it is important to detect and avoid it. Besides the above methods, there are many other ways to prevent overfitting.
 
-
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
