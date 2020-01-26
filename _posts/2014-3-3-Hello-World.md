@@ -17,4 +17,4 @@ title: Data Science Projects
 
 [Python_death-by-risk-factors](https://github.com/fsywang/DSCI_532_Group213_death_by_risk_factors)
 
-[R_death-by-risk=factors](https://github.com/fsywang/DSCI_532_Group213_death-by-risk-factors_dash-R)
+[R_death-by-risk-factors](https://github.com/fsywang/DSCI_532_Group213_death-by-risk-factors_dash-R)
