@@ -1,10 +1,20 @@
 ---
 layout: post
-title: 542 Probability and Statistics
+title: Data Science Projects 
 ---
 
-Probability means that given some rules, we need to get the chance of whether the event will happen. It is about looking forward. However, Statistics is kind of looking back. It means that given the actual event, we need to guess what makes the it happend.
+# Data Analysis Project
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+[App-Market-Analysis](https://github.com/fsywang/App-Market-Analysis)
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+[Home_Credit_Analysis](https://github.com/fsywang/Home_Credit_Analysis)
+
+[DMC_Portuguese](https://github.com/fsywang/DMC_Portuguese_Group_402)
+
+[Handwritten-digit_classification](https://github.com/fsywang/handwritten-digits_classification)
+
+# Visualization Dashboard
+
+[Python_death-by-risk-factors](https://github.com/fsywang/DSCI_532_Group213_death_by_risk_factors)
+
+[R_death-by-risk=factors](https://github.com/fsywang/DSCI_532_Group213_death-by-risk-factors_dash-R)
